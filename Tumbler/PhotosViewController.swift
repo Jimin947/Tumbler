@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    
     @IBOutlet weak var tableView: UITableView!
     var posts: [[String: Any]] = []
     
@@ -63,7 +65,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             let url = URL(string: urlString)
             cell.photoImageView.af_setImage(withURL: url!)
         }
-        cell.textLabel?.text = "This is row \(indexPath.row)"
         
         return cell
     }

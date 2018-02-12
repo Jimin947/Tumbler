@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E2E49E020315DBC00AFF973 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E49E120315DBC00AFF973 /* AlamofireImage.framework */; };
+		8E2E49E32031773300AFF973 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E49E22031773300AFF973 /* PhotoCell.swift */; };
 		8E9972C020315C5A008E6743 /* Pods_Tumbler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9972C120315C5A008E6743 /* Pods_Tumbler.framework */; };
 		8EA5F0C320312CEB000321E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5F0C220312CEB000321E6 /* AppDelegate.swift */; };
 		8EA5F0C820312CEB000321E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA5F0C620312CEB000321E6 /* Main.storyboard */; };
 		8EA5F0CA20312CEB000321E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA5F0C920312CEB000321E6 /* Assets.xcassets */; };
 		8EA5F0CD20312CEB000321E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA5F0CB20312CEB000321E6 /* LaunchScreen.storyboard */; };
 		8EA5F0D920312F94000321E6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5F0D820312F94000321E6 /* PhotosViewController.swift */; };
-		8EA5F0DB203133DE000321E6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5F0DA203133DE000321E6 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09464BB6496A87B393498B1E /* Pods-Tumbler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler.release.xcconfig"; sourceTree = "<group>"; };
 		8E2E49E120315DBC00AFF973 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E49E22031773300AFF973 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		8E9972C120315C5A008E6743 /* Pods_Tumbler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Tumbler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA5F0BF20312CEB000321E6 /* Tumbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA5F0C220312CEB000321E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +28,6 @@
 		8EA5F0CC20312CEB000321E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA5F0CE20312CEB000321E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA5F0D820312F94000321E6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
-		8EA5F0DA203133DE000321E6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		A2C795258D5369E53C4D2CEB /* Pods-Tumbler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbler/Pods-Tumbler.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2E49E020315DBC00AFF973 /* AlamofireImage.framework in Frameworks */,
 				8E9972C020315C5A008E6743 /* Pods_Tumbler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,8 +82,8 @@
 		8EA5F0C120312CEB000321E6 /* Tumbler */ = {
 			isa = PBXGroup;
 			children = (
+				8E2E49E22031773300AFF973 /* PhotoCell.swift */,
 				8EA5F0D820312F94000321E6 /* PhotosViewController.swift */,
-				8EA5F0DA203133DE000321E6 /* PhotoCell.swift */,
 				8EA5F0C220312CEB000321E6 /* AppDelegate.swift */,
 				8EA5F0C620312CEB000321E6 /* Main.storyboard */,
 				8EA5F0C920312CEB000321E6 /* Assets.xcassets */,
@@ -227,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA5F0C320312CEB000321E6 /* AppDelegate.swift in Sources */,
-				8EA5F0DB203133DE000321E6 /* PhotoCell.swift in Sources */,
+				8E2E49E32031773300AFF973 /* PhotoCell.swift in Sources */,
 				8EA5F0D920312F94000321E6 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
